@@ -1,16 +1,14 @@
-package turniplabs.examplemod
+package guiaworld.exceptionalbta
 
 import net.fabricmc.api.ModInitializer
-import net.java.games.input.Component.Identifier.Key.T
-import org.checkerframework.common.returnsreceiver.qual.This
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import turniplabs.halplibe.util.GameStartEntrypoint
 import turniplabs.halplibe.util.RecipeEntrypoint
 
-object ExampleMod: ModInitializer, GameStartEntrypoint, RecipeEntrypoint {
+object ExceptionalBTA: ModInitializer, GameStartEntrypoint, RecipeEntrypoint {
     @JvmField
-    val MODID: String = "examplemod"
+    val MODID: String = "exceptionalbta"
 
     @JvmField
     val LOGGER: Logger = LoggerFactory.getLogger(MODID)

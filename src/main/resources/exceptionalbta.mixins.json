@@ -1,12 +1,12 @@
 {
     "required": true,
     "minVersion": "0.8",
-    "package": "turniplabs.examplemod.mixin",
+    "package": "guiaworld.exceptionalbta.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
     ],
     "client": [
-        "GuiMainMenuMixin"
+      "GuiMainMenuMixin"
     ],
     "injectors": {
         "defaultRequire": 1

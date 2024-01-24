@@ -1,18 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "exceptionalbta",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "GuiAworld's Exceptional BTA",
+  "description": "This mod aims to improve BTA .",
   "authors": [
-    "Turnip Labs"
+    "GuiAworld"
   ],
   "contact": {
     "homepage": "",
     "sources": ""
   },
-
   "license": "CC0-1.0",
 
   "environment": "*",
@@ -20,12 +18,12 @@
     "main": [
       {
         "adapter": "kotlin",
-        "value": "turniplabs.examplemod.ExampleMod"
+        "value": "guiaworld.exceptionalbta.ExceptionalBTA"
       }
     ]
   },
   "mixins": [
-    "examplemod.mixins.json"
+		"exceptionalbta.mixins.json"
   ],
 
   "depends": {
